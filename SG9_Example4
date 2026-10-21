@@ -1,0 +1,27 @@
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def eat(self):
+        print(self.name, "is eating.")
+
+
+class Dog(Animal):
+    def bark(self):
+        print(self.name, "says Woof!")
+
+
+class Cat(Animal):
+    def meow(self):
+        print(self.name, "says Meow!")
+
+
+dog1 = Dog("Bruno")
+cat1 = Cat("Kitty")
+
+dog1.eat()
+dog1.bark()
+
+cat1.eat()
+cat1.meow()
+

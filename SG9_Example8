@@ -1,0 +1,23 @@
+class Vehicle:
+    def start(self):
+        print("Vehicle is starting.")
+
+
+class Car(Vehicle):
+    def drive(self):
+        print("Car is driving.")
+
+
+class Motorcycle(Vehicle):
+    def ride(self):
+        print("Motorcycle is moving.")
+
+
+car1 = Car()
+motor1 = Motorcycle()
+
+car1.start()
+car1.drive()
+
+motor1.start()
+motor1.ride()

@@ -1,0 +1,21 @@
+class Person:
+    def introduce(self):
+        print("I am a person.")
+
+
+class Employee(Person):
+    def work(self):
+        print("I am working.")
+
+
+class Manager(Employee):
+    def manage(self):
+        print("I am managing a team.")
+
+
+manager1 = Manager()
+
+manager1.introduce()
+manager1.work()
+manager1.manage()
+
