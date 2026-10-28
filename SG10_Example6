@@ -1,0 +1,6 @@
+amount = 15000
+
+print(f"₱{amount:,.2f}")
+
+
+

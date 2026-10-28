@@ -1,0 +1,12 @@
+class Parent:
+    def display(self):
+        print("Hello from Parent")
+
+class Child(Parent):
+    def display(self):
+        super().display()
+        print("Hello from Child")
+
+obj = Child()
+obj.display()
+
